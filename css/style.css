@@ -106,7 +106,7 @@ body {
 	letter-spacing: .05em;
 	color: #151515;
 	/*background-color: #ffffff*/
-	background-color: #151515
+	background-color: #151515;
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: subpixel-antialiased;
 }
@@ -11555,7 +11555,7 @@ html [class*='section-'].section-top-0 {
 * Light Backgrounds
 */
 .bg-default {
-	background-color: #fffff;
+	background-color: #ffffff;
 }
 
 .bg-gray-100 {
@@ -15136,7 +15136,8 @@ html.rd-navbar-fixed-linked .page-header {
 	text-align: center;
 	transform: translate3d(0, 0, 0);
 	transition: .3s;
-	z-index: 10;
+	z-index: 0; /* was 10 changed*/
+
 }
 
 .swiper-pagination.swiper-pagination-hidden {
@@ -15275,6 +15276,7 @@ html.rd-navbar-fixed-linked .page-header {
 	height: 100%;
 	white-space: nowrap;
 	background-position: 50% 50%;
+	z-index: 1000;
 }
 
 .swiper-slide-caption {
