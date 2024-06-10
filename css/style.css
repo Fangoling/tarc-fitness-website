@@ -11384,11 +11384,11 @@ html [class*='section-'].section-top-0 {
 }
 
 .context-dark .button-secondary.button-ujarak::before, .bg-gray-dark .button-secondary.button-ujarak::before, .bg-primary .button-secondary.button-ujarak::before {
-	background: #ff6666;
+	background: #ffffff;
 }
 
 .context-dark .button-secondary.button-ujarak:hover, .bg-gray-dark .button-secondary.button-ujarak:hover, .bg-primary .button-secondary.button-ujarak:hover, .context-dark .button-secondary.button-ujarak:active, .bg-gray-dark .button-secondary.button-ujarak:active, .bg-primary .button-secondary.button-ujarak:active {
-	border-color: #ff6666;
+	border-color: #ffffff;
 }
 
 .footer-variant-2.context-dark, .footer-variant-2.bg-gray-dark, .footer-variant-2.bg-primary {
@@ -11555,7 +11555,7 @@ html [class*='section-'].section-top-0 {
 * Light Backgrounds
 */
 .bg-default {
-	background-color: #ffffff;
+	background-color: #fffff;
 }
 
 .bg-gray-100 {
